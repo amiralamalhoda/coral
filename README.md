@@ -199,7 +199,7 @@ pip install pycoral-2.0.0-cp39-cp39-linux_aarch64.whl
 You're all set! Now you can use your USB accelerator to speed up your AI models. Remember to re-plug your accelerator into the CM4 and run your model. Trained models for the Edge TPU are available [here](https://coral.ai/models/). If you want to run other models on the accelerator, ensure they are converted to a TensorFlow Lite model and compiled for the Edge TPU. For more information, read [here](https://coral.ai/docs/edgetpu/models-intro/).
 
 
-For a test run, you can clone this repository and run `detect.py`. To run `detect.py`, you need to install OpenCV and other dependencies:
+For a test run, you can clone this repository and run `detect.py`. To run `detect.py`, you need to install OpenCV:
 
 
 ```bash
